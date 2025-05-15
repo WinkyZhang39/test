@@ -8,7 +8,7 @@ from torchvision import transforms
 from data_set import get_datasets
 from model1_resnet import ClassificationModelResNet
 from torch.utils.data import Dataset, DataLoader
-
+#在这里我尝试更改一下
 
 # 训练模型
 def train_model(model, criterion, optimizer, scheduler, dataloaders, dataset_sizes, num_epochs=25):
